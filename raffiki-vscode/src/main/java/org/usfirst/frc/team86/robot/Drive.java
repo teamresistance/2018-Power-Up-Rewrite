@@ -73,8 +73,8 @@ private boolean arcD;
 			rightFront.set(ControlMode.PercentOutput, -1*(JoystickIO.rightJoystick.getY()));
 		} else if(arcD && xbControl){
 			
-		speed = JoystickIO.xBox.getRawAxis(5);
-		turnD = JoystickIO.xBox.getRawAxis(4);
+			speed = JoystickIO.xBox.getRawAxis(5);
+			turnD = JoystickIO.xBox.getRawAxis(4);
 			
 				leftFront.set(ControlMode.PercentOutput, -1 * (speed - turnD));
 				rightFront.set(ControlMode.PercentOutput, -1 * (-speed + turnD));

@@ -77,12 +77,13 @@ public class Robot extends IterativeRobot {
 	public void autonomousPeriodic() {
 		
 	}
-@Override
-public void teleopInit(){
-	IO.navX.reset();
-	teleop.init();
-	arm.setState(20);
-}
+	
+	@Override
+	public void teleopInit(){
+		IO.navX.reset();
+		teleop.init();
+		arm.setState(20);
+	}
 	@Override
 	public void teleopPeriodic() {
 		IO.compressorRelay.set(IO.compressor.enabled() ? Relay.Value.kOn : Relay.Value.kOff);
