@@ -1,11 +1,14 @@
 # 2018-Power-Up-Rewrite
 Built for Eclipse, this is the 2018 bot Raffiki, rewritten to follow the framework set in 2017. OUTDATED (Eclipse)
 
+# Descriptions
+  * Mecanum Drive
+  * Arm grabs cubes
+
 ### Joystick Assignments
 
   ![Image of Joystick](https://github.com/teamresistance/RolloverBot-2019/blob/master/RO/images/joystick360.jpg)
   
-  # Driver Station
   * Joystick 1 (Left)
     * Y of Joystick Rotates Robot
     
