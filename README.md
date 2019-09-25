@@ -1,7 +1,7 @@
 # 2018-Power-Up-Rewrite
 Built for Eclipse, this is the 2018 bot Raffiki, rewritten to follow the framework set in 2017. OUTDATED (Eclipse)
 
-# Descriptions
+# Description
   * Mecanum Drive
   * Arm grabs cubes
 
